@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Kontakt</title>
+    </head>
+    <body>
+        
+        <ul> 
+            <li>
+                <a href ="oNama.html">O nama</a>
+            </li>
+            
+            <li>
+            
+                <a href = "naslovna.html" align ="">Naslovna</a>
+            </li>
+            <li>     
+            <a href = "Cenovnik.html">Cenovnik</a>
+            </li>
+            <li>
+            <a href = "Galerija.html">Galerija</a>
+            </li>
+            </ul>
+        <img src = "slika_kontakt.jpg">
+        <p>Ovo je nasa lokacija</p>
+        <div id="googleMap" style="width:500px;height:400px;"></div>     
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(44.791467,20.439059),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+<address>
+    Napravio:<a href="mailto:jasmin.potter.94@gmail.com">Aleksa Ristic </a><br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <link href = "style.css" type = "text/css" rel = "stylesheet">
+    </head>
+    <body class = "klasa_kontakt">
+        <div class = "klasa_meni">
+            <table>
+            <tr>
+                <td class = "meni_onama">
+                    <a href ="O_nama.html">O nama</a>
+                </td>
+                
+                <td class = "meni_zaposleni">
+                
+                    <a href = "Zaposleni.html" align ="">Zaposleni</a>
+                </td>
+                <td class = "meni_cenovnik">     
+                <a href = "Cenovnik.html">Cenovnik</a>
+                </td>
+                <td class = "meni_modeli">
+                <a href = "Modeli.html">Modeli</a>
+                </td>
+                <td class = "meni_kontakt">
+                    <a href = "rent_a_car.html">Pocetna</a>
+                </td>
+                </tr>
+            </table>
+            </div>
+            <br>
+            <img src = "kontakt.jpg">
+            <table><caption>Phone numbers</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th colspan="2">Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aleksa</td>
+                        <td>0645629383</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>577854</td>
+                        <td>577855</td>
+                    </tr>
+                    <tr>
+                        <td>Jack</td>
+                        <td>577856</td>
+                        <td>577857</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Personal</td>
+                        <td>Office</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <form action="/action.php" method="post">
+                Name: <input name="name" type="text" /> <br /> 
+                Age: <input max="99" min="1" name="age" step="1" type="number" value="18" /> <br />
+                <select name="gender">
+                    <option selected="selected" value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br /> 
+                <input checked="checked" name="newsletter" type="radio" value="daily" /> Daily <input name="newsletter" type="radio" value="weekly" /> Weekly<br />
+                <textarea cols="20" name="comments" rows="5">Comment</textarea><br />
+                <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br />
+                <input type="submit" value="Submit" />
+            </form>
+            <address>
+                Napravio:<a href="mailto:jasmin.potter.94@gmail.com">Aleksa Ristic </a><br>
+            </address>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+.klasa_pocetna {
+
+ background-color: silver;   
+}
+
+
+.klasa_meni {
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0.5em;
+    box-shadow: 2px 2px 7px 1px #1C6EA4;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+.meni_onama {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    
+}
+
+.meni_kontakt {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+
+.meni_modeli {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.meni_cenovnik {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.meni_zaposleni {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+
+.onama_paragraf1{
+    background-color: silver;
+}
+.onama_paragraf2 {
+padding-bottom: 150px;
+}
+.onama_paragraf3 { 
+    padding-top: 50px;
+    background-color: silver;
+}
+
+.klasa_modeli {
+background-color: silver;
+
+}
+
+#model1 {
+    width: 300px;
+    height: 300px;
+}
+
+#model2 {
+    width: 500px;
+    height: 300px;
+}
+
+#model3 {
+    width: 400px;
+    height: 300px;
+}
+
+.zaposleni_slike{
+    background-size: auto;
+}
+#clan1 {
+    width: 1050px;
+    height: 300px;
+}
